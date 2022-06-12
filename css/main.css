@@ -175,3 +175,88 @@ p, li {
 .item-categorie span:hover {
   color: var(--pink);
 }
+
+.search {
+  width: 100%;
+  max-width: 28rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 3.6rem;
+}
+.search input {
+  border: 1px solid rgba(153, 149, 166, 0.25);
+  border-radius: 0.4rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: transparent;
+  padding: 0 1.6rem;
+  height: 100%;
+  font-family: "Atyp BL Text", sans-serif;
+  color: #ffffff;
+  -webkit-transition: border 0.3s ease;
+  transition: border 0.3s ease;
+}
+.search input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.search input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.search input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.search input::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.search input::placeholder {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.search input:focus {
+  border: 1px solid var(--pink);
+}
+.search button {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-left: -5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: var(--pink);
+  border-radius: 0.4rem;
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
+}
+.search button:hover {
+  -webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
+}
