@@ -267,3 +267,21 @@
         }
     }
 }
+.btn-primary{
+    position: absolute;
+    width: 100%;
+    max-width: 17.2rem;
+    height: 4.8rem;
+    border: 1px solid rgba(246, 122, 203, 0.55);
+    border-radius: 8px;
+    font-family: 'Atyp BL Text', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 100%;
+    transition: all .3s ease;
+    color: var(--pink);
+    &:hover{
+        background-color: var(--pink);
+        color: #ffffff;
+    }
+}
