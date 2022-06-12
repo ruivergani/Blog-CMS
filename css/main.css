@@ -260,3 +260,14 @@ p, li {
   -webkit-filter: brightness(0.8);
   filter: brightness(0.8);
 }
+
+.categorie {
+  font-family: "Atyp BL Text";
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 105%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* Brand Colors/pink */
+  color: var(--pink);
+}
