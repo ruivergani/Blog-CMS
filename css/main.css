@@ -7,6 +7,7 @@
   --gray-scale-04: #57555F;
   --gray-scale-05: #9995A6;
   --gray-scale-06: #ACB4BF;
+  --white-opacity: rgba(255, 255, 255, 0.7);
 }
 
 @font-face {
@@ -147,4 +148,30 @@ h6 {
 p, li {
   font-weight: 400;
   color: var(--gray-scale-03);
+}
+
+.item-categorie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.item-categorie img {
+  max-width: 16px;
+  max-height: 16px;
+}
+.item-categorie span {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 150%;
+  mix-blend-mode: normal;
+  color: var(--white-opacity);
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.item-categorie span:hover {
+  color: var(--pink);
 }

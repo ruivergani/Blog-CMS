@@ -1,0 +1,21 @@
+// Header components
+.item-categorie{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    img{
+        max-width: 16px;
+        max-height: 16px;
+    }
+    span{
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 150%;
+        mix-blend-mode: normal;
+        color: var(--white-opacity);
+        transition: color .3s ease;
+        &:hover{
+            color: var(--pink);
+        }
+    }
+}
