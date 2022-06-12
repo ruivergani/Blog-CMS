@@ -432,9 +432,22 @@ p, li {
   gap: 1.6rem;
 }
 .card-post-default .image {
+  position: relative;
   width: 100%;
   max-width: 38.4rem;
   height: 20rem;
+}
+.card-post-default .image:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(45.77%, rgba(15, 17, 22, 0.025)), color-stop(92.14%, rgba(11, 8, 20, 0.25)));
+  background: linear-gradient(180deg, rgba(15, 17, 22, 0.025) 45.77%, rgba(11, 8, 20, 0.25) 92.14%);
+  border-radius: 0.6rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
 .card-post-default .image img {
   width: 100%;
@@ -449,7 +462,7 @@ p, li {
   flex: 1;
   width: 100%;
 }
-.card-post-default .info p {
+.card-post-default .info h6 {
   margin-bottom: 0.5rem;
   margin-top: 0.8rem;
   font-family: "Atyp BL Text", sans-serif;
