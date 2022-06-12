@@ -271,3 +271,75 @@ p, li {
   /* Brand Colors/pink */
   color: var(--pink);
 }
+
+.card-post-lg {
+  width: 100%;
+  max-width: 72.8rem;
+  display: block;
+}
+.card-post-lg .image {
+  width: 100%;
+  height: 32rem;
+  margin-bottom: 3.5rem;
+  overflow: hidden;
+}
+.card-post-lg .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.card-post-lg .info .top-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1.6rem;
+}
+.card-post-lg .info .top-info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4rem;
+}
+.card-post-lg .info .top-info ul li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.card-post-lg .info .top-info ul li:not(:first-child)::after {
+  content: "";
+  width: 0.6rem;
+  height: 0.6rem;
+  /* Gray Colors/300 */
+  background-color: #393C40;
+  position: absolute;
+  border-radius: 50%;
+  left: -2rem;
+}
+.card-post-lg .info .top-info ul li span {
+  font-family: "Atyp BL Text";
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 150%;
+  /* Gray Colors/05 */
+  color: var(--gray-scale-05);
+}
+.card-post-lg .info h3 {
+  color: white;
+  max-width: 95%;
+}
