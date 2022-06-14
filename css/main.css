@@ -281,6 +281,9 @@ p, li {
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
 }
+.card-post-lg:hover .info h3 {
+  color: var(--pink);
+}
 .card-post-lg .image {
   width: 100%;
   height: 32rem;
@@ -346,6 +349,8 @@ p, li {
   color: var(--gray-scale-05);
 }
 .card-post-lg .info h3 {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   color: white;
   max-width: 95%;
 }
@@ -365,6 +370,9 @@ p, li {
 .card-post-xs:hover .image img {
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
+}
+.card-post-xs:hover .info h6 {
+  color: var(--pink);
 }
 .card-post-xs .image {
   width: 100%;
@@ -388,6 +396,8 @@ p, li {
 .card-post-xs .info h6 {
   margin-top: 1.2rem;
   margin-bottom: 0.5rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .card-post-xs .info ul {
   display: -webkit-box;
@@ -447,6 +457,9 @@ p, li {
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
 }
+.card-post-default:hover .info h6 {
+  color: var(--pink);
+}
 .card-post-default .image {
   position: relative;
   width: 100%;
@@ -487,6 +500,8 @@ p, li {
   font-size: 1.8rem;
   line-height: 120%;
   color: #000000;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .card-post-default .info ul {
   display: -webkit-box;
@@ -562,6 +577,9 @@ p, li {
   opacity: 1;
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
+}
+.card-podcast:hover .info h6 {
+  color: var(--pink);
 }
 .card-podcast:hover .image img {
   -webkit-transform: scale(1.03);
@@ -647,6 +665,8 @@ p, li {
 }
 .card-podcast .info h6 {
   margin-top: 0.8rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .card-podcast .info .play {
   display: -webkit-box;
