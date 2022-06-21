@@ -778,6 +778,90 @@ header nav ul li:not(:first-child) {
   margin-left: 6.4rem;
 }
 
+footer {
+  padding-bottom: 6.3rem;
+}
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+footer .left-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 75rem;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+footer .left-text strong {
+  max-width: 12.4rem;
+  font-family: "Atyp BL Text", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  color: #FFFFFF;
+}
+footer .left-text p {
+  font-family: "Atyp BL Text", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  color: #FFFFFF;
+  opacity: 0.8;
+  width: 100%;
+  max-width: 60rem;
+}
+footer .right-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 26rem;
+}
+footer .right-text img {
+  width: 100%;
+  max-width: 15rem;
+}
+footer .right-text button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0.4;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  width: 3.7rem;
+  height: 3.7rem;
+}
+footer .right-text button img {
+  max-width: 1.3rem;
+}
+
 .s-hero-post {
   padding-top: 8.3rem;
   padding-bottom: 11.7rem;
@@ -951,7 +1035,7 @@ header nav ul li:not(:first-child) {
 }
 
 .s-playlist {
-  padding-top: 8.6rem;
+  padding-top: 8rem;
 }
 .s-playlist .container {
   position: relative;
@@ -964,7 +1048,7 @@ header nav ul li:not(:first-child) {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-bottom: 9rem;
+  padding-bottom: 8rem;
 }
 .s-playlist .container:after {
   content: "";
