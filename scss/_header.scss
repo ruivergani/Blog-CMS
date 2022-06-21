@@ -7,6 +7,12 @@ header {
     align-items: center;
     background-color: rgba(15, 12, 27, 0.5);
     z-index: 2022;
+    transition: all .3s;
+    &.bgON{
+      backdrop-filter: blur(4rem);
+      border-bottom: 1px solid rgba(28, 22, 46, 0.5);
+    }
+    /* Note: backdrop-filter has minimal browser support */
     .container {
       display: flex;
       align-items: center;
