@@ -48,10 +48,14 @@ footer{
             align-items: center;
             justify-content: center;
             opacity: 0.4;
-            border: 2px solid #FFFFFF;
+            border: 2px solid rgba(255, 255, 255);
             border-radius: 50%;
             width: 3.7rem;
             height: 3.7rem;
+            transition: all .3s ease;
+            &:hover{
+                opacity: 1;
+            }
             img{
                 max-width: 1.3rem;
             }

@@ -853,10 +853,15 @@ footer .right-text button {
   -ms-flex-pack: center;
   justify-content: center;
   opacity: 0.4;
-  border: 2px solid #FFFFFF;
+  border: 2px solid white;
   border-radius: 50%;
   width: 3.7rem;
   height: 3.7rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+footer .right-text button:hover {
+  opacity: 1;
 }
 footer .right-text button img {
   max-width: 1.3rem;

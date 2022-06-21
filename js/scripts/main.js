@@ -28,6 +28,11 @@ var slide_podcast = new Swiper(".slide-podcast", {
   speed: 600
 });
 
-var swiper = new Swiper(".mySwiper", {
-  
-});
+// Button Scroll Top
+const btnScrollTop = document.getElementById("js-btn-scroll-top");
+btnScrollTop.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+})
