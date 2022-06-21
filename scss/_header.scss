@@ -10,7 +10,7 @@ header {
     transition: all .3s;
     &.bgON{
       backdrop-filter: blur(4rem);
-      border-bottom: 1px solid rgba(28, 22, 46, 0.5);
+      border-bottom: 1px solid rgba(28, 22, 46, 0.2);
     }
     /* Note: backdrop-filter has minimal browser support */
     .container {

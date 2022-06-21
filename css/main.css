@@ -590,10 +590,10 @@ p, li {
   border-radius: 8px;
   overflow: hidden;
   position: relative;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
 }
 .card-podcast .image img {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
   z-index: 1;
 }
 .card-podcast .image::after {
@@ -734,7 +734,7 @@ header {
 header.bgON {
   -webkit-backdrop-filter: blur(4rem);
   backdrop-filter: blur(4rem);
-  border-bottom: 1px solid rgba(28, 22, 46, 0.5);
+  border-bottom: 1px solid rgba(28, 22, 46, 0.2);
 }
 header .container {
   display: -webkit-box;

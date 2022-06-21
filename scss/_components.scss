@@ -361,8 +361,8 @@
         overflow: hidden;
         // create overlay
         position: relative;
-        transition: all .3s ease-in;
         img{
+            transition: all .3s ease-in;
             z-index: 1;
         }
         &::after{
