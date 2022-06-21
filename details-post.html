@@ -2,24 +2,85 @@
 <html lang="en-GB">
 
 <head>
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Jquery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/svg" href="./favicon.svg">
+  <!-- CSS Links -->
   <link rel="stylesheet" href="./css/plugins.css">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Blog Codeboost - Detalhes do post</title>
+  <title>Posts | Rui Vergani Neto</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+     <!-- Logo -->
+     <a href="./">
+      <img src="./img/logo.svg" alt="Logo Blog Rui Neto">
+     </a>
+     <!-- Nav Section -->
+     <nav>
+      <ul>
+        <li>
+          <a href="" class="item-categorie">
+            <img src="./img/icon-tecnologia.svg" alt="icon Tecnologia">
+            <span>Tecnologia</span>
+          </a>
+        </li>
+        <li>
+          <a href="" class="item-categorie">
+            <img src="./img/icon-react.svg" alt="icon React">
+            <span>React&nbsp;JS</span>
+          </a>
+        </li>
+        <li>
+          <a href="" class="item-categorie">
+            <img src="./img/icon-html.svg" alt="icon HTML & CSS">
+            <span>HTML&nbsp;&&nbsp;CSS</span>
+          </a>
+        </li>
+      </ul>
+      <form action="" class="search">
+        <input type="text" placeholder="Search for article or theme">
+        <button type="submit">
+          <img src="./img/icon-lupa.svg" alt="Icon search">
+        </button>
+      </form>
+     </nav>
+    </div>
+  </header>
 
-   
+
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="left-text">
+        <strong>©2022 SUL Blog Rui Vergani Neto</strong>
+        <p>The Blog has been developed during the Codeboost course. The main focus of the Blog will be Computer Science content. I am BSc Computer Science student at Staffordshire University London &#127468;&#127463; and brazilian natural from Americana, Sao Paulo &#127463;&#127479; </p>
+      </div>
+      <div class="right-text">
+        <div>
+          <img src="./img/logo.svg" alt="logo rui neto">
+        </div>
+        <button id="js-btn-scroll-top" type="button">
+          <img src="./img/arrow-up.svg" alt="arrow up">
+        </button>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript Links -->
   <script src="js/plugins.js"></script>
   <script src="js/all.js"></script>
 </body>
-
 </html>
 
