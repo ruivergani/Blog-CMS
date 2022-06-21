@@ -93,7 +93,7 @@ a {
   width: 100%;
   max-width: 121.6rem;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 2.5rem;
 }
 
 h1 {
@@ -704,6 +704,17 @@ p, li {
   color: var(--pink);
 }
 
+.subtitle-02 {
+  font-family: "Atyp BL Text", sans-serif;
+  font-size: 13px;
+  line-height: 105%;
+  /* identical to box height, or 14px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* Brand Colors/pink */
+  color: #F67ACB;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -758,4 +769,57 @@ header nav ul {
 }
 header nav ul li:not(:first-child) {
   margin-left: 6.4rem;
+}
+
+.s-hero-post {
+  padding-top: 8.3rem;
+  padding-bottom: 11.7rem;
+}
+.s-hero-post .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.s-hero-post .left-container {
+  width: 100%;
+  max-width: 72.8rem;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.s-hero-post .left-container .title {
+  padding-bottom: 4.2rem;
+}
+.s-hero-post .left-container .title span {
+  padding-bottom: 1.4rem;
+  display: block;
+}
+.s-hero-post .right-container {
+  margin-top: 4rem;
+  max-width: 38.4rem;
+}
+.s-hero-post .right-container h4 {
+  padding-bottom: 4.2rem;
+}
+.s-hero-post .right-container .all .item-post {
+  position: relative;
+}
+.s-hero-post .right-container .all .item-post:not(:last-child) {
+  margin-bottom: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+.s-hero-post .right-container .all .item-post:not(:last-child):after {
+  content: "";
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  background: url("../img/line-divisor.svg") no-repeat center center;
+  width: 100%;
+  height: 0.2rem;
 }
