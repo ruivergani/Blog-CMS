@@ -949,3 +949,57 @@ header nav ul li:not(:first-child) {
   overflow: hidden;
   position: relative;
 }
+
+.s-playlist {
+  padding-top: 8.6rem;
+}
+.s-playlist .container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 9rem;
+}
+.s-playlist .container:after {
+  content: "";
+  height: 0.2rem;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: url("../img/line-footer.svg") no-repeat center center;
+}
+.s-playlist .text-left {
+  width: 100%;
+  max-width: 20.5rem;
+}
+.s-playlist .text-left h4 {
+  margin-top: 1.4rem;
+}
+.s-playlist .right-container .item-playlist:not(:last-child) {
+  margin-right: 8.7rem;
+}
+.s-playlist .right-container .item-playlist h5 {
+  font-family: "Atyp BL Text", sans-serif;
+  font-size: 1.8rem;
+  line-height: 120%;
+  /* or 22px */
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.s-playlist .right-container .item-playlist .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 3.2rem;
+  margin-bottom: 2.1rem;
+}
