@@ -156,18 +156,30 @@
     }
     
     .text-left{
-        width: 100%;
         max-width: 20.5rem;
         h4{
+            width: 100%;
+            max-width: 20.5rem;
             margin-top: 1.4rem;
         }
     }
     .right-container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        max-width: 74.1rem;
+        width: 100%;
         .item-playlist{
             &:not(:last-child){
                 margin-right: 8.7rem;
             }
+            &:hover{
+                h5{
+                    opacity: 1;
+                }
+            }
             h5{
+                transition: all .3s ease;
                 font-family: 'Atyp BL Text', sans-serif;
                 font-size: 1.8rem;
                 line-height: 120%;

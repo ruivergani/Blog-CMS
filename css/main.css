@@ -976,16 +976,35 @@ header nav ul li:not(:first-child) {
   background: url("../img/line-footer.svg") no-repeat center center;
 }
 .s-playlist .text-left {
-  width: 100%;
   max-width: 20.5rem;
 }
 .s-playlist .text-left h4 {
+  width: 100%;
+  max-width: 20.5rem;
   margin-top: 1.4rem;
+}
+.s-playlist .right-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 74.1rem;
+  width: 100%;
 }
 .s-playlist .right-container .item-playlist:not(:last-child) {
   margin-right: 8.7rem;
 }
+.s-playlist .right-container .item-playlist:hover h5 {
+  opacity: 1;
+}
 .s-playlist .right-container .item-playlist h5 {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   font-family: "Atyp BL Text", sans-serif;
   font-size: 1.8rem;
   line-height: 120%;
