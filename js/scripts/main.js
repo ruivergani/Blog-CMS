@@ -19,4 +19,15 @@ var slide_podcast = new Swiper(".slide-podcast", {
     el: ".s-podcast .container .top .ctrl-slide .swiper-pagination",
     clickable: true,
   },
+  // navigation section 
+  navigation: {
+    nextEl: ".s-podcast .top .btn-next",
+    prevEl: ".s-podcast .top .btn-prev",
+  },
+  // smooth pagination
+  speed: 600
+});
+
+var swiper = new Swiper(".mySwiper", {
+  
 });
