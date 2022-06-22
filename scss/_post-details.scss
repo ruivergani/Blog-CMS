@@ -43,9 +43,11 @@
                     font-weight: 600;
                     font-size: 15px;
                     line-height: 105%;
-                    /* identical to box height, or 16px */
-                    /* Gray Colors/05 */
                     color: #9995A6;
+                    transition: all .3s;
+                    &:hover{
+                        color: white;
+                    }
                 }
                 span{
                     font-family: 'Atyp BL Text', sans-serif;
@@ -73,4 +75,83 @@
             }
         }
     }
+    .featured-info-post{
+        z-index: 1;
+        position: relative;
+        margin-top: 4.8rem;
+        margin-bottom: 8rem;
+        .image{
+            width: 100%;
+            max-width: 121.6rem;
+            margin: 0 auto;
+            height: 47.2rem;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 1rem;
+                object-fit: cover;
+            }
+        }
+        .box-info-post{
+            width: 100%;
+            max-width: 100.8rem;
+            background: #FFFFFF;
+            box-shadow: 0px 24px 40px -8px rgba(16, 12, 28, 0.06);
+            border-radius: 8px;
+            padding: 4.8rem 0px 4.8rem 7.2rem;
+            margin: 0 auto;
+            margin-top: -106px;
+            position: relative;
+            z-index: 1;
+            .categorie{
+                background-color: rgba(246, 122, 203, 0.15);
+                padding: 6px 10px;
+            }
+            h1{
+                font-family: 'Atyp BL Text', sans-serif;
+                font-weight: 600;
+                font-size: 4rem;
+                line-height: 120%;
+                color: var(--gray-scale-01);
+                max-width: 86.4rem;
+                margin-top: 2rem;
+                margin-bottom: 2.8rem;
+            }
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 5.2rem;
+                li{
+                    position: relative;
+                    &:not(:last-child){
+                        &:after{
+                            content: "";
+                            background: #9995A6;
+                            opacity: 0.3;
+                            width: 4px;
+                            height: 4px;
+                            position: absolute;
+                            right: -30px;
+                            top: 8px;
+                        }
+                    }
+                    display: flex;
+                    align-items: center;
+                    gap: 0.8rem;
+                    span{
+                        font-family: 'Atyp BL Text', sans-serif;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 150%;
+                        color: var(--gray-scale-04);
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    padding-top: 8rem;
 }

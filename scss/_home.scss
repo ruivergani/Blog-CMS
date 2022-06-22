@@ -138,6 +138,7 @@
 }
 .s-playlist{
     padding-top: 8rem;
+    padding-bottom: 0rem !important;
     .container{
         position: relative;
         display: flex;
@@ -154,7 +155,6 @@
             background: url("../img/line-footer.svg") no-repeat center center;
         }
     }
-    
     .text-left{
         max-width: 20.5rem;
         h4{
