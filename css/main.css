@@ -437,6 +437,19 @@ p, li {
   /* Gray Colors/05 */
   color: var(--gray-scale-05);
 }
+@media (max-width: 768px) {
+  .card-post-xs {
+    max-width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .card-post-xs .info {
+    -webkit-box-flex: initial;
+    -ms-flex: initial;
+    flex: initial;
+  }
+}
 
 .card-post-default {
   display: -webkit-box;
@@ -971,6 +984,16 @@ footer .right-text button img {
 @media (max-width: 768px) {
   .s-hero-post .container {
     grid-template-columns: 1fr;
+    grid-gap: 4rem;
+  }
+  .s-hero-post .right-container {
+    max-width: 100%;
+  }
+  .s-hero-post .right-container h4 {
+    text-align: center;
+  }
+  .s-hero-post .right-container .all .item-post:not(:last-child):after {
+    background-size: cover;
   }
 }
 

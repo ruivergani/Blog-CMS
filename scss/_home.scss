@@ -55,6 +55,22 @@
     @media (max-width: 768px){
         .container{
             grid-template-columns: 1fr;
+            grid-gap: 4rem;
+        }
+        .right-container{
+            max-width: 100%;
+            h4{
+                text-align: center;
+            }
+            .all{
+                .item-post{
+                    &:not(:last-child){
+                        &:after{
+                            background-size: cover;
+                        }
+                    }
+                }
+            }
         }
     }
 }
