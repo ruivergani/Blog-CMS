@@ -7,7 +7,7 @@ header {
     align-items: center;
     background-color: rgba(15, 12, 27, 0.5);
     z-index: 2022;
-    transition: all .3s;
+    transition: all .4s ease-in-out;
     &.bgON{
       backdrop-filter: blur(4rem);
       border-bottom: 1px solid rgba(28, 22, 46, 0.2);
@@ -43,9 +43,15 @@ header {
       .hamburger{
         display: none;
         margin-left: 2rem;
+        &.is-active{
+          .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+            background-color: white;
+          }
+        }
         .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
           background-color: white;
         }
+
       }
     }
     
@@ -69,6 +75,10 @@ header {
    }
    @media (max-width: 668px){
     nav{
+      .hamburger{
+        margin-left: 0px;
+        padding: 0px;
+      }
       .search{
         display: none;
       }

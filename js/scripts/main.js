@@ -36,3 +36,9 @@ btnScrollTop.addEventListener('click', () => {
     behavior: "smooth"
   });
 })
+
+// Add class active to menu button
+const menuButton = document.getElementById('js-menu-button');
+menuButton.addEventListener('click', () => {
+  menuButton.classList.toggle('is-active'); // add the CSS configuration on this button
+})

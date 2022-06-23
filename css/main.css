@@ -68,10 +68,6 @@ body {
   background-color: var(--gray-scale-01);
 }
 
-span {
-  font-size: 1.6rem !important;
-}
-
 a {
   text-decoration: none;
   display: inline-block;
@@ -79,7 +75,7 @@ a {
 
 @media (max-width: 1200px) {
   section {
-    padding: 80px 0px !important;
+    padding: 60px 0px !important;
   }
 }
 @media (max-width: 768px) {
@@ -731,8 +727,8 @@ header {
   align-items: center;
   background-color: rgba(15, 12, 27, 0.5);
   z-index: 2022;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   /* Note: backdrop-filter has minimal browser support */
 }
 header.bgON {
@@ -785,6 +781,9 @@ header nav .hamburger {
   display: none;
   margin-left: 2rem;
 }
+header nav .hamburger.is-active .hamburger-inner, header nav .hamburger.is-active .hamburger-inner::before, header nav .hamburger.is-active .hamburger-inner::after {
+  background-color: white;
+}
 header nav .hamburger .hamburger-inner, header nav .hamburger .hamburger-inner::before, header nav .hamburger .hamburger-inner::after {
   background-color: white;
 }
@@ -808,6 +807,10 @@ header nav .hamburger .hamburger-inner, header nav .hamburger .hamburger-inner::
   }
 }
 @media (max-width: 668px) {
+  header nav .hamburger {
+    margin-left: 0px;
+    padding: 0px;
+  }
   header nav .search {
     display: none;
   }
@@ -817,6 +820,7 @@ header nav .hamburger .hamburger-inner, header nav .hamburger .hamburger-inner::
 }
 
 footer {
+  display: none;
   padding-bottom: 6.3rem;
 }
 footer .container {
@@ -906,7 +910,6 @@ footer .right-text button img {
 }
 
 .s-hero-post {
-  display: none;
   padding-top: 8.3rem;
   padding-bottom: 11.7rem;
 }
@@ -957,6 +960,18 @@ footer .right-text button img {
   background: url("../img/line-divisor.svg") no-repeat center center;
   width: 100%;
   height: 0.2rem;
+}
+@media (max-width: 1150px) {
+  .s-hero-post .container {
+    display: grid;
+    grid-template-columns: 1fr 35rem;
+    grid-gap: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .s-hero-post .container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .s-articles {

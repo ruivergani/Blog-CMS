@@ -1,6 +1,5 @@
 // Hero
 .s-hero-post{
-    display: none;
     padding-top: 8.3rem;
     padding-bottom: 11.7rem;
     .container{
@@ -43,6 +42,19 @@
                     }
                 }
             }
+        }
+    }
+    // Responsive
+    @media(max-width: 1150px){
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 35rem;
+            grid-gap: 3rem;
+        }
+    }
+    @media (max-width: 768px){
+        .container{
+            grid-template-columns: 1fr;
         }
     }
 }
