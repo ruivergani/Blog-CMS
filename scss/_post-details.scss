@@ -152,11 +152,11 @@
     }
     .info-post-geral{
         padding-top: 8rem;
-        padding-bottom:11.8rem;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
         .left-content{
+            position: sticky;
             flex: 1;
             width: 100%;
             max-width: 24rem;
@@ -236,6 +236,84 @@
         .right-content{
             flex: 1;
             margin-left: 8.5rem;
+            .content-post{
+                width: 100%;
+                border-bottom: 2px solid rgba(28, 22, 46, 0.10);
+                margin-bottom: 4rem;
+                padding-bottom: 4rem;
+                blockquote{
+                    p{
+                        font-family: 'Atyp BL Text', sans-serif;
+                        font-weight: 400;
+                        font-size: 1.8rem;
+                        line-height: 175%;
+                        color: var(--gray-scale-03);
+                        margin-bottom: 0px;
+                    }
+                    margin-bottom: 4rem;
+                    border-left: 2px solid rgba(92, 31, 166, 0.15);
+                    padding-left: 2.4rem;
+                }
+                h1,
+                h2,
+                h3,
+                h4, 
+                h5,
+                h6{
+                    font-family: 'Atyp BL Text', sans-serif;
+                    font-weight: 600;
+                    font-size: 32px;
+                    line-height: 120%;
+                    color: var(--gray-scale-01);
+                    margin-bottom: 2.4rem;
+                }
+                p{
+                    font-family: 'Atyp BL Text', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 175%;
+                    color: var(--gray-scale-03);
+                    margin-bottom: 1.6rem;
+                }
+                ul{
+                    margin-bottom: 4rem;
+                    li{
+                        margin-bottom: 1.2rem;
+                        display: flex;
+                        align-items: flex-start;
+                        &:before{
+                            content: "";
+                            width: 4px;
+                            height: 4px;
+                            display: inline-block;
+                            background-color: #9995A6;
+                            margin-top: 1rem;
+                            margin-right: 1.6rem;
+                            transition: all .3s;
+                        }
+                    }
+                }
+            }
+            .share{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                strong{
+                    font-weight: 600;
+                    font-size: 1.6rem;
+                    line-height: 100%;
+                    color: var(--gray-scale-01);
+                }
+                ul{
+                    display: flex;
+                    align-items: center;
+                    gap: 3.2rem;
+                    transition: all .3s;
+                    &:hover{
+                        filter: brightness(0.4);
+                    }
+                }
+            }
         }
     }
 }
