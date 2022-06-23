@@ -55,7 +55,25 @@
     @media (max-width: 768px){
         .container{
             grid-template-columns: 1fr;
-            grid-gap: 4rem;
+            grid-gap: 2rem;
+        }
+        .left-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 4rem;
+            .title{
+                padding-bottom: 2rem;
+                span{
+                    text-align: center;
+                }
+            }
+            .info{
+                h3{
+                    max-width: 100%;
+                    text-align: center;
+                }
+            }
         }
         .right-container{
             max-width: 100%;
@@ -71,6 +89,17 @@
                     }
                 }
             }
+        }
+    }
+    @media (max-width: 560px){
+        .container{
+            
+        }
+        .left-container{
+
+        }
+        .right-container{
+
         }
     }
 }
