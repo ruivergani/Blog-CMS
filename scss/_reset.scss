@@ -18,7 +18,7 @@ button {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 68%;
 }
 
 body {
@@ -27,6 +27,9 @@ body {
   background-color: var(--gray-scale-01);
 }
 
+span{
+  font-size: 1.6rem !important;
+}
 a {
   text-decoration: none;
   display: inline-block;
@@ -34,7 +37,7 @@ a {
 
 section {
   @media(max-width: 1200px) {
-    padding: 60px 0px !important;
+    padding: 80px 0px !important;
   }
   @media(max-width: 768px) {
     padding: 50px 0 !important;

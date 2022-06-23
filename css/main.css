@@ -59,13 +59,17 @@ button {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 68%;
 }
 
 body {
   font-family: "Atyp BL Text", sans-serif;
   font-size: 1rem;
   background-color: var(--gray-scale-01);
+}
+
+span {
+  font-size: 1.6rem !important;
 }
 
 a {
@@ -75,7 +79,7 @@ a {
 
 @media (max-width: 1200px) {
   section {
-    padding: 60px 0px !important;
+    padding: 80px 0px !important;
   }
 }
 @media (max-width: 768px) {
@@ -764,7 +768,7 @@ header nav {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  max-width: 83.2rem;
+  max-width: 80.2rem;
 }
 header nav ul {
   display: -webkit-box;
@@ -776,6 +780,40 @@ header nav ul {
 }
 header nav ul li:not(:first-child) {
   margin-left: 6.4rem;
+}
+header nav .hamburger {
+  display: none;
+  margin-left: 2rem;
+}
+header nav .hamburger .hamburger-inner, header nav .hamburger .hamburger-inner::before, header nav .hamburger .hamburger-inner::after {
+  background-color: white;
+}
+@media (max-width: 1100px) {
+  header nav {
+    max-width: 75%;
+  }
+}
+@media (max-width: 991px) {
+  header nav {
+    max-width: 100%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  header nav .hamburger {
+    display: block;
+  }
+  header nav ul {
+    display: none;
+  }
+}
+@media (max-width: 668px) {
+  header nav .search {
+    display: none;
+  }
+  header .logo {
+    max-width: 13rem;
+  }
 }
 
 footer {
@@ -809,7 +847,7 @@ footer .left-text strong {
   max-width: 12.4rem;
   font-family: "Atyp BL Text", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 150%;
   /* identical to box height, or 21px */
   color: #FFFFFF;
@@ -817,7 +855,7 @@ footer .left-text strong {
 footer .left-text p {
   font-family: "Atyp BL Text", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 150%;
   /* or 21px */
   color: #FFFFFF;
@@ -868,6 +906,7 @@ footer .right-text button img {
 }
 
 .s-hero-post {
+  display: none;
   padding-top: 8.3rem;
   padding-bottom: 11.7rem;
 }
@@ -921,6 +960,7 @@ footer .right-text button img {
 }
 
 .s-articles {
+  display: none;
   background-color: white;
   padding-top: 11.7rem;
   padding-bottom: 12rem;
@@ -968,6 +1008,7 @@ footer .right-text button img {
 }
 
 .s-podcast {
+  display: none;
   padding-top: 12rem;
   padding-bottom: 12rem;
   border-bottom: 2px solid #1C162E;
@@ -1040,6 +1081,7 @@ footer .right-text button img {
 }
 
 .s-playlist {
+  display: none;
   padding-top: 8rem;
   padding-bottom: 0rem !important;
 }

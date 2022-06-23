@@ -29,7 +29,7 @@ header {
       align-items: center;
       justify-content: space-between;
       flex: 1;
-      max-width: 83.2rem;
+      max-width: 80.2rem;
       ul {
         display: flex;
         align-items: center;
@@ -39,8 +39,44 @@ header {
           }
         }
       }
+      // Hambuger configuration from lib 
+      .hamburger{
+        display: none;
+        margin-left: 2rem;
+        .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+          background-color: white;
+        }
+      }
     }
-   
+    
+   // Responsive 
+   @media (max-width: 1100px){
+    nav{
+       max-width: 75%;
+    }
+   }
+   @media (max-width: 991px){
+    nav{
+       .hamburger{
+        display: block;
+       }
+       max-width: 100%;
+       justify-content: flex-end;
+       ul{
+        display: none;
+       }
+    }
+   }
+   @media (max-width: 668px){
+    nav{
+      .search{
+        display: none;
+      }
+    }
+    .logo{
+      max-width: 13rem;
+    }
+   }
   }
   
  
