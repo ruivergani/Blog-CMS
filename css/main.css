@@ -1301,6 +1301,7 @@ footer .right-text button img {
 }
 .s-details-post .info-post-geral .left-content {
   position: sticky;
+  top: 12rem;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
