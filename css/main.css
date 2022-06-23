@@ -1488,6 +1488,39 @@ footer .right-text button img {
   filter: brightness(0.4);
 }
 
+.s-post-similiar {
+  padding-top: 12rem;
+  position: relative;
+}
+.s-post-similiar .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+.s-post-similiar .all {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3.2rem;
+}
+.s-post-similiar .all .card-post-default .info h6 {
+  color: #FFFFFF;
+}
+.s-post-similiar:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: url("../img/line-footer.svg") no-repeat center center;
+}
+
 footer {
   padding-top: 8rem;
 }

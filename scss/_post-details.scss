@@ -318,6 +318,36 @@
         }
     }
 }
+.s-post-similiar{
+    padding-top: 12rem;
+    position: relative;
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 4rem;
+    }
+    .all{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3.2rem;
+        .card-post-default{
+            .info{
+                h6{
+                    color: #FFFFFF;
+                }
+            }
+        } 
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background: url("../img/line-footer.svg") no-repeat center center;
+    }
+}
 
 footer{
     padding-top: 8rem;
