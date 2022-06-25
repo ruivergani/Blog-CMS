@@ -151,6 +151,20 @@
             max-width: 95%;
         }
     }
+    // Responsive
+    @media (max-width: 560px){
+        .image{
+            height: 20rem;
+            margin-bottom: 2rem;
+        }
+        .info{
+            .top-info{
+                ul{
+                    display: none;
+                }
+            }
+        }
+    }
 }
 .card-post-xs{
     display: flex;

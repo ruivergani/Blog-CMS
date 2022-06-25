@@ -92,11 +92,10 @@
         }
     }
     @media (max-width: 560px){
-        .container{
-            
-        }
         .left-container{
-
+            .title{
+                margin-bottom: 0rem;
+            }
         }
         .right-container{
 
@@ -104,7 +103,6 @@
     }
 }
 .s-articles{
-    display: none;
     background-color: white;
     padding-top: 11.7rem;
     padding-bottom: 12rem;
@@ -139,7 +137,6 @@
     }
 }
 .s-podcast{
-    display: none;
     padding-top: 12rem;
     padding-bottom: 12rem;
     border-bottom: 2px solid #1C162E;
@@ -197,7 +194,6 @@
     }
 }
 .s-playlist{
-    display: none;
     padding-top: 8rem;
     padding-bottom: 0rem !important;
     .container{
