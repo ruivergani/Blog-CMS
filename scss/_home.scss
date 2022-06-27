@@ -96,12 +96,27 @@
             grid-gap: 0px;
         }
         .left-container{
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            padding-bottom: 3rem;
+            margin-bottom: 0px;
             .title{
                 margin-bottom: 0rem;
             }
         }
         .right-container{
-
+            margin-top: 3rem;
+            h4{
+                padding-bottom: 3rem;
+            }
+            .all{
+                .item-post{
+                    position: relative;
+                    &:not(:last-child){
+                        margin-bottom: 2rem;
+                        padding-bottom: 2rem;
+                    }
+                }
+            }
         }
     }
 }

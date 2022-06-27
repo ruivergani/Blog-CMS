@@ -250,6 +250,12 @@
             flex: initial;
         }
     }
+    @media (max-width: 560px){
+        gap: 2rem;
+        .info{
+            flex: 1;
+        }
+    }
 }
 .card-post-default{
     display: flex;
