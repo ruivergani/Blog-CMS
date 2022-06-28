@@ -738,8 +738,13 @@ p, li {
   .card-podcast {
     max-width: 100% !important;
   }
+  .card-podcast .info {
+    bottom: 4rem;
+  }
+  .card-podcast .info .play {
+    opacity: 1;
+  }
 }
-
 .subtitle {
   font-family: "Atyp BL Text", sans-serif;
   font-weight: 400;
@@ -1237,13 +1242,29 @@ footer .right-text button img {
   .s-podcast .container {
     padding: 0px;
   }
+  .s-podcast .top {
+    margin-bottom: 3rem;
+    padding: 0px 15px;
+  }
+  .s-podcast .top .ctrl-slide {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  .s-podcast .top .ctrl-slide .swiper-pagination {
+    display: none;
+  }
   .s-podcast .slide-podcast {
     padding: 0px 15px;
   }
 }
+@media (max-width: 560px) {
+  .s-podcast .top {
+    margin-bottom: 2rem;
+  }
+}
 
 .s-playlist {
-  display: none;
   padding-top: 8rem;
   padding-bottom: 0rem !important;
 }

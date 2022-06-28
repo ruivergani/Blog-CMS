@@ -480,6 +480,15 @@
     // Responsive
     @media (max-width: 1150px){
        max-width: 100% !important;
+       .info{
+            bottom: 4rem;
+            .play{
+                opacity: 1;
+            }
+       }
+    }
+    @media (max-width: 560px){
+
     }
 }
 .subtitle{

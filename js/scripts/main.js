@@ -43,11 +43,13 @@ var slide_podcast = new Swiper(".slide-podcast", {
     991: {
       slidesPerView: 2.5
     },
-    // normal view
     1150: {
+      slidesPerView: 3.5
+    },
+    1200: {
       slidesPerView: 4,
       spaceBetween: 32
-    }
+    },
   }
 });
 
