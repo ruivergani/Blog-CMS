@@ -397,6 +397,7 @@
         img{
             transition: all .3s ease-in;
             z-index: 1;
+            width: 100%;
         }
         &::after{
             content: "";
@@ -475,6 +476,10 @@
                 color: var(--pink);
             }
         }
+    }
+    // Responsive
+    @media (max-width: 1150px){
+       max-width: 100% !important;
     }
 }
 .subtitle{

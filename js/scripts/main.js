@@ -25,7 +25,30 @@ var slide_podcast = new Swiper(".slide-podcast", {
     prevEl: ".s-podcast .top .btn-prev",
   },
   // smooth pagination
-  speed: 600
+  speed: 600,
+  // responsive part of the slide
+  breakpoints: {
+    // mobile
+    275: {
+      slidesPerView: 1.1, // part of the other slide
+      spaceBetween: 20,
+    },
+    // tablet
+    560: {
+      slidesPerView: 1.5
+    },
+    768: {
+      slidesPerView: 2.1
+    },
+    991: {
+      slidesPerView: 2.5
+    },
+    // normal view
+    1150: {
+      slidesPerView: 4,
+      spaceBetween: 32
+    }
+  }
 });
 
 // Button Scroll Top
