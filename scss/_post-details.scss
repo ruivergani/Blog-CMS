@@ -76,6 +76,7 @@
         }
     }
     .featured-info-post{
+        display: none;
         z-index: 1;
         position: relative;
         margin-top: 4.8rem;
@@ -151,6 +152,7 @@
         }
     }
     .info-post-geral{
+        display: none;
         padding-top: 8rem;
         display: flex;
         align-items: flex-start;
@@ -317,8 +319,39 @@
             }
         }
     }
+    // Responsive part
+    @media (max-width: 768px){
+        .top-details{
+            .breadcrumbs{
+                li{
+                    span{
+                        display: block;
+                        max-width: 30rem;
+                        line-height: 150%;
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+            a{
+                justify-content: flex-end;
+                width: 100%;
+            }
+        }
+    }
+    @media (max-width: 560px){
+        .top-details{
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4rem;
+            .breadcrumbs{
+                flex-wrap: wrap;
+                gap: 3rem;
+            }
+        }
+    }
 }
 .s-post-similiar{
+    display: none;
     padding-top: 12rem;
     padding-bottom: 12rem;
     position: relative;
