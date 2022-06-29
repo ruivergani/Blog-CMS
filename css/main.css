@@ -1549,7 +1549,6 @@ footer .right-text button img {
   opacity: 1;
 }
 .s-details-post .featured-info-post {
-  display: none;
   z-index: 1;
   position: relative;
   margin-top: 4.8rem;
@@ -1845,6 +1844,12 @@ footer .right-text button img {
     -ms-flex-pack: end;
     justify-content: flex-end;
     width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .s-details-post .featured-info-post .box-info-post {
+    max-width: 80rem;
+    padding: 4rem;
   }
 }
 @media (max-width: 560px) {

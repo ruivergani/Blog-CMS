@@ -76,7 +76,6 @@
         }
     }
     .featured-info-post{
-        display: none;
         z-index: 1;
         position: relative;
         margin-top: 4.8rem;
@@ -338,6 +337,14 @@
             }
         }
     }
+    @media (max-width: 991px){
+        .featured-info-post{
+            .box-info-post{
+                max-width: 80rem;
+                padding: 4rem;
+            }
+        }
+    }
     @media (max-width: 560px){
         .top-details{
             flex-direction: column;
@@ -349,6 +356,7 @@
             }
         }
     }
+
 }
 .s-post-similiar{
     display: none;
