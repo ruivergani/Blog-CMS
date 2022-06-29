@@ -874,7 +874,6 @@ header nav .hamburger .hamburger-inner, header nav .hamburger .hamburger-inner::
 }
 
 footer {
-  display: none;
   padding-bottom: 6.3rem;
 }
 footer .container {
@@ -961,6 +960,50 @@ footer .right-text button:hover {
 }
 footer .right-text button img {
   max-width: 1.3rem;
+}
+@media (max-width: 1150px) {
+  footer {
+    padding-bottom: 6rem;
+    padding-top: 6rem !important;
+  }
+}
+@media (max-width: 991px) {
+  footer .left-text {
+    max-width: 57rem !important;
+  }
+  footer .left-text p {
+    max-width: 44rem !important;
+  }
+}
+@media (max-width: 768px) {
+  footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  footer .left-text {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+  footer .left-text p {
+    max-width: 100% !important;
+  }
+  footer .left-text strong {
+    max-width: 100%;
+  }
 }
 
 .s-hero-post {
