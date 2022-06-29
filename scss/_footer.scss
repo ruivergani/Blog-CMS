@@ -94,5 +94,9 @@ footer{
             }
         }
     }
+    @media (max-width: 560px){
+        padding-bottom: 4rem !important;
+        padding-top: 4rem !important;
+    }
 
 }

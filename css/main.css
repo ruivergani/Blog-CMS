@@ -1005,6 +1005,12 @@ footer .right-text button img {
     max-width: 100%;
   }
 }
+@media (max-width: 560px) {
+  footer {
+    padding-bottom: 4rem !important;
+    padding-top: 4rem !important;
+  }
+}
 
 .s-hero-post {
   padding-top: 8.3rem;
