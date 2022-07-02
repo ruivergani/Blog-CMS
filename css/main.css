@@ -1041,6 +1041,15 @@ footer .right-text button img {
   padding-bottom: 1.4rem;
   display: block;
 }
+.s-hero-post .left-container .title .subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 8px;
+}
 .s-hero-post .right-container {
   margin-top: 4rem;
   max-width: 38.4rem;
@@ -1836,6 +1845,15 @@ footer .right-text button img {
   -webkit-filter: brightness(0.4);
   filter: brightness(0.4);
 }
+@media (max-width: 1200px) {
+  .s-details-post .info-post-geral .left-content {
+    display: none;
+  }
+  .s-details-post .info-post-geral .right-content {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+}
 @media (max-width: 991px) {
   .s-details-post .featured-info-post .box-info-post {
     max-width: 80rem;
@@ -1905,6 +1923,40 @@ footer .right-text button img {
   }
   .s-details-post .featured-info-post .box-info-post ul li:not(:last-child):after {
     display: none;
+  }
+  .s-details-post .info-post-geral {
+    padding-top: 4rem;
+  }
+  .s-details-post .info-post-geral .right-content .content-post blockquote {
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .s-details-post .info-post-geral .right-content .content-post blockquote p {
+    font-size: 1.6rem;
+  }
+  .s-details-post .info-post-geral .right-content .content-post h1, .s-details-post .info-post-geral .right-content .content-post h2, .s-details-post .info-post-geral .right-content .content-post h3, .s-details-post .info-post-geral .right-content .content-post h4, .s-details-post .info-post-geral .right-content .content-post h5, .s-details-post .info-post-geral .right-content .content-post h6 {
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .s-details-post .info-post-geral .right-content .content-post p {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .s-details-post .info-post-geral .right-content .content-post ul {
+    margin-bottom: 2rem;
+  }
+  .s-details-post .info-post-geral .right-content .content-post ul li {
+    font-size: 1.6rem;
+  }
+  .s-details-post .info-post-geral .right-content .share {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 2rem;
   }
 }
 

@@ -17,7 +17,13 @@
                 display: block;
             }
             padding-bottom: 4.2rem;
+            .subtitle{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
         }
+        
     }
     .right-container{
         margin-top: 4rem;
