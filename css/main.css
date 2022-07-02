@@ -1218,7 +1218,7 @@ footer .right-text button img {
 
 .s-podcast {
   padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-bottom: 8rem;
   border-bottom: 2px solid #1C162E;
 }
 .s-podcast .top {
@@ -1874,6 +1874,37 @@ footer .right-text button img {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 3rem;
+  }
+  .s-details-post .featured-info-post .image {
+    height: 28rem;
+  }
+  .s-details-post .featured-info-post .box-info-post {
+    width: 90%;
+    padding: 3rem 2rem;
+  }
+  .s-details-post .featured-info-post .box-info-post h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .s-details-post .featured-info-post .box-info-post .categorie {
+    font-size: 1rem;
+  }
+  .s-details-post .featured-info-post .box-info-post ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .s-details-post .featured-info-post .box-info-post ul li:not(:last-child):after {
+    display: none;
   }
 }
 

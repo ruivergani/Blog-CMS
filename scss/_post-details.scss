@@ -352,7 +352,6 @@
             }
         }
     }
-   
     @media (max-width: 560px){
         .top-details{
             flex-direction: column;
@@ -361,6 +360,37 @@
             .breadcrumbs{
                 flex-wrap: wrap;
                 gap: 3rem;
+            }
+        }
+        .featured-info-post{
+            .image{
+                height: 28rem;
+            }
+            .box-info-post{
+                // remember phone the width is 90%
+                width: 90%;
+                padding: 3rem 2rem;
+                h1{
+                    font-size: 2.2rem;
+                    margin-bottom: 1.5rem;
+                    margin-top: 1.5rem;
+                }
+                .categorie{
+                    font-size: 1rem;
+                }
+                ul{
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    gap: 1rem;
+                    li{
+                        &:not(:last-child){
+                            &:after{
+                                display: none
+                            }
+                        }
+                    }
+                }
             }
         }
     }
