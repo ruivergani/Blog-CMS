@@ -96,6 +96,14 @@ header {
       max-width: 13rem;
     }
    }
+}
+.menu-opened{
+  header{
+    .menu-mobile{
+      opacity: 1;
+      transform: translateX(0%);
+    }
   }
+}
   
  

@@ -888,6 +888,12 @@ header .menu-mobile {
   }
 }
 
+.menu-opened header .menu-mobile {
+  opacity: 1;
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
 footer {
   padding-bottom: 6.3rem;
 }
