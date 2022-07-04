@@ -479,6 +479,9 @@ p, li {
     -ms-flex: 1;
     flex: 1;
   }
+  .card-post-xs .info ul {
+    display: none;
+  }
 }
 
 .card-post-default {
@@ -840,6 +843,18 @@ header nav .hamburger.is-active .hamburger-inner, header nav .hamburger.is-activ
 }
 header nav .hamburger .hamburger-inner, header nav .hamburger .hamburger-inner::before, header nav .hamburger .hamburger-inner::after {
   background-color: white;
+}
+header .menu-mobile {
+  position: absolute;
+  top: 80px;
+  height: calc(100vh - 80px);
+  width: 100%;
+  background-color: #0a0615;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 0;
 }
 @media (max-width: 1100px) {
   header nav {

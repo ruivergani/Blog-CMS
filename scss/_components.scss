@@ -254,6 +254,9 @@
         gap: 2rem;
         .info{
             flex: 1;
+            ul{
+                display: none;
+            }
         }
     }
 }

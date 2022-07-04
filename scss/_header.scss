@@ -54,7 +54,16 @@ header {
 
       }
     }
-    
+    .menu-mobile{
+      position: absolute; // acompanha mesmo com rolagem
+      top: 80px; // size of header nav
+      height: calc(100vh - 80px); // viewport height
+      width: 100%;
+      background-color: rgb(10, 6, 21);
+      transform: translateX(100%); // 100% para baixo (efeito de subir)
+      transition: all .3s ease;
+      opacity: 0;
+    }
    // Responsive 
    @media (max-width: 1100px){
     nav{
