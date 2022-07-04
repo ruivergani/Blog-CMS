@@ -60,7 +60,7 @@ header {
       height: calc(100vh - 80px); // viewport height
       width: 100%;
       background-color: rgb(10, 6, 21);
-      transform: translateX(100%); // 100% para baixo (efeito de subir)
+      transform: translateY(100%); // 100% para baixo (efeito de subir)
       transition: all .3s ease;
       opacity: 0;
     }
@@ -101,7 +101,7 @@ header {
   header{
     .menu-mobile{
       opacity: 1;
-      transform: translateX(0%);
+      transform: translateY(0%);
     }
   }
 }

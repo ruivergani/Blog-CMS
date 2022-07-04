@@ -850,8 +850,8 @@ header .menu-mobile {
   height: calc(100vh - 80px);
   width: 100%;
   background-color: #0a0615;
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   opacity: 0;
@@ -890,8 +890,8 @@ header .menu-mobile {
 
 .menu-opened header .menu-mobile {
   opacity: 1;
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 footer {
