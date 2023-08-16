@@ -72,6 +72,11 @@ ___
 
 ___
 
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
+___
+
 Made with ❤️ by Rui Vergani Neto 👋🏽 [Get in Touch!](https://www.linkedin.com/in/ruivergani/)
 
 ---
